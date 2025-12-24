@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-showcase",
+  "version": "1.0.0",
+  "description": "Exercício: converter CSS para SASS",
+  "scripts": {
+    "build:sass": "sass --no-source-map scss/main.scss styles.css",
+    "dev:sass": "sass --watch scss/main.scss:styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.0.0"
+  }
+}
